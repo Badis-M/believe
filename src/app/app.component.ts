@@ -17,10 +17,16 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title: 'News',
+      url: 'news',
+      icon: 'list-box'
+    },
+    {
       title: 'About',
       url: '/about',
       icon: 'help-circle-outline'
-    }
+    },
+
   ];
 
   constructor(

@@ -24,7 +24,7 @@ import { SocialSharing } from '@ionic-native/social-sharing/ngx';
   providers: [
     StatusBar,
     SplashScreen,
-      SocialSharing,
+    SocialSharing,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

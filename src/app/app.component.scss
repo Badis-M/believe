@@ -1,14 +1,21 @@
-ion-content.background{
+ion-content.background {
   --background: url(../assets/img/nightcityjp.jpeg) 0 0/100% 100% no-repeat;
 }
 
-ion-list{
-  --background: #021b46 !important;
-  --color: #fff !important;
-  border-radius: 15px !important;
+ion-card {
+  --background: #021b46;
+  --color: #fff;
+  border-radius: 15px;
 }
-ion-card{
-  --background: #021b46 !important;
-  --color: #fff !important;
+
+.ion-color-newcolor {
+  --ion-color-base: #021b46;
+  --ion-color-contrast: #224068;
+  border-radius: 20px;
+}
+
+ion-list {
+  //--ion-item-background: 224068;
+  --ion-background-color: #021b46;
   border-radius: 15px;
 }

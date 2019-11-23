@@ -7,16 +7,16 @@
                 </ion-toolbar>
             </ion-header>
             <ion-content padding class="background">
-                    <ion-list>
+                <ion-list>
                         <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
-                            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" color="primary">
-                                <ion-icon slot="start" [name]="p.icon"></ion-icon>
-                                <ion-label>
+                            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+                                <ion-icon color="light" slot="start" [name]="p.icon"></ion-icon>
+                                <ion-label color="light">
                                     {{p.title}}
                                 </ion-label>
                             </ion-item>
                         </ion-menu-toggle>
-                    </ion-list>
+                </ion-list>
             </ion-content>
         </ion-menu>
         <ion-router-outlet id="main-content"></ion-router-outlet>

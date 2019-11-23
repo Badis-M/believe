@@ -18,7 +18,7 @@ articles;
 
     this.apiService.getNews().subscribe((data) => {
       console.log(data);
-      this.articles = data.articles;
+      this.articles = data['articles'];
     });
     }
 

@@ -9,7 +9,7 @@
     </ion-toolbar>
 </ion-header>
 
-<ion-content color="primary">
+<ion-content padding class="background">
     <ion-card>
         <!--<ion-img src="/assets/shapes.svg"></ion-img>-->
         <ion-card-header>
@@ -23,7 +23,7 @@
         </ion-card-content>
     </ion-card>
 
-    <ion-card *ngFor="let article of articles">
+    <ion-card *ngFor="let article of articles" class="ion-card">
         <ion-img src="{{article.urlToImage}}"></ion-img>
         <ion-card-header>
             <ion-card-subtitle>{{article.title}}</ion-card-subtitle>

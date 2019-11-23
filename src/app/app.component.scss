@@ -1,0 +1,14 @@
+ion-content.background{
+  --background: url(../assets/img/nightcityjp.jpeg) 0 0/100% 100% no-repeat;
+}
+
+ion-list{
+  --background: #021b46 !important;
+  --color: #fff !important;
+  border-radius: 15px !important;
+}
+ion-card{
+  --background: #021b46 !important;
+  --color: #fff !important;
+  border-radius: 15px;
+}

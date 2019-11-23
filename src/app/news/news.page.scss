@@ -6,4 +6,9 @@
 ion-card{
   --background: #021b46;
   --color: #fff;
+  border-radius: 15px;
+}
+
+ion-content.background{
+  --background: url(../../assets/img/sunset-new-york-city.jpg) 0 0/100% 100% no-repeat;
 }
